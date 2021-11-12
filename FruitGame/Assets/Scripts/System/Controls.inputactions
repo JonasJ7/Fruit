@@ -1,0 +1,79 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "DrawingTablet",
+            "id": "a98ed29c-991b-4b99-988c-d0def224ed4d",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "PassThrough",
+                    "id": "218b116e-3a01-4462-9cf7-0a07d2ec32cd",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "a19086bb-4980-4c00-a616-1728e8f853fb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "258f6506-dabc-41b0-98d2-f56c7b7e0cae",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1a81cd22-7b16-443d-97a2-542384186d16",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "MakeyMakey",
+            "id": "ba9c56ca-a8b6-4dd0-a205-be2afa846798",
+            "actions": [
+                {
+                    "name": "Throw",
+                    "type": "Button",
+                    "id": "f08d7bad-3312-4460-b47d-c22cc81e746f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f351f66d-c4a4-4fbf-9499-c81cff61ca1c",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Throw",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
